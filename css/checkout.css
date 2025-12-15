@@ -1,0 +1,27 @@
+#checkout-container { display: flex; justify-content: space-between; flex-wrap: wrap; padding-top: 40px; }
+        .checkout-form { width: 50%; margin-bottom: 30px; }
+        .checkout-summary { width: 45%; background-color: #e3e6f3; padding: 30px; border-radius: 4px; }
+        .checkout-form input, .checkout-form textarea { width: 100%; padding: 12px 15px; outline: none; margin-bottom: 20px; border: 1px solid #e1e1e1; border-radius: 4px; }
+        .checkout-form label { font-weight: 600; margin-bottom: 5px; display: block; }
+        .order-item { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 1px solid #ccc; padding-bottom: 10px; }
+        .order-item img { width: 50px; margin-right: 10px; }
+        .order-total { border-top: 2px solid #088178; padding-top: 15px; margin-top: 20px; display: flex; justify-content: space-between; font-size: 18px; font-weight: 700; }
+        
+        /* CSS cho phần chọn phương thức thanh toán */
+        .payment-option {
+            background: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .payment-option:hover { border-color: #088178; }
+        .payment-option input { margin-right: 10px; width: auto; margin-bottom: 0;}
+        .payment-option label { margin-bottom: 0; cursor: pointer; flex: 1;}
+        .payment-option img { width: 30px; margin-right: 10px; }
+
+        @media (max-width: 799px) { .checkout-form, .checkout-summary { width: 100%; } }

@@ -1,0 +1,71 @@
+/* HEADER */
+.user-header {
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background: #fafafa;
+    font-weight: 600;
+}
+
+/* USER AVATAR */
+.avatar {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* ROLE BADGE */
+.role {
+    padding: 6px 12px;
+    border-radius: 8px;
+    color: white;
+    font-size: 13px;
+}
+
+.role.admin {
+    background: #d35400;
+}
+
+.role.user {
+    background: #3498db;
+}
+
+/* ACTION BUTTONS */
+.actions button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+}
+
+.edit { background: #27ae60; }
+.edit:hover { background: #1e8449; }
+
+.lock { background: #e74c3c; }
+.lock:hover { background: #c0392b; }
+
+
+

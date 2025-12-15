@@ -1,0 +1,68 @@
+/* CSS riêng một chút cho icon Lab để nó đẹp hơn */
+        .lab-icon {
+            font-size: 50px;
+            color: #088178;
+            margin-bottom: 10px;
+            display: block;
+            text-align: center;
+            padding: 20px 0;
+            background: #f0f0f0;
+            border-radius: 15px;
+        }
+        .pro:hover .lab-icon {
+            background: #088178;
+            color: #fff;
+            transition: 0.3s;
+        }
+        /* CSS cho danh sách bài nhỏ xổ xuống */
+.file-list {
+    display: none; /* Mặc định ẩn đi */
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    border-top: 1px solid #e1e1e1;
+    text-align: left;
+    width: 100%;
+}
+
+.file-list li {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.file-list li a {
+    display: block;
+    padding: 10px;
+    font-size: 13px;
+    color: #333;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.file-list li a:hover {
+    background-color: #e8f6ea; /* Màu xanh nhạt khi di chuột vào */
+    color: #088178;
+    padding-left: 15px; /* Hiệu ứng đẩy chữ sang phải */
+}
+
+.file-list li a i {
+    margin-right: 8px;
+    color: #088178;
+}
+
+/* Class này sẽ được JS thêm vào để hiện danh sách */
+.show-files {
+    display: block !important;
+    animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Chỉnh lại chiều cao của ô Lab để nó tự co giãn theo nội dung */
+.pro {
+    height: auto !important; 
+    min-height: 300px;
+    align-items: flex-start; /* Căn nội dung lên trên */
+}

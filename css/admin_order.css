@@ -1,0 +1,72 @@
+.order-header {
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+th {
+    background: #fafafa;
+    font-weight: 600;
+}
+
+/* STATUS LABEL */
+.status {
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
+}
+
+.status.pending {
+    background: #f39c12;
+}
+
+.status.success {
+    background: #27ae60;
+}
+
+.status.cancel {
+    background: #e74c3c;
+}
+
+/* ACTION BUTTONS */
+.actions button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+}
+
+.view {
+    background: #3498db;
+}
+.view:hover {
+    background: #2980b9;
+}
+
+.update {
+    background: #8e44ad;
+}
+.update:hover {
+    background: #71368a;
+}
