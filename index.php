@@ -29,6 +29,7 @@ $res_new = $conn->query($sql_new);
         <div>
             <h1>Chiều thứ 2 ca 3</h1>
             <h1>Chiều thứ 2 ca 3</h1>
+            <h1>Chiều thứ 2 ca 3</h1>
             <ul id="navbar">
                 <li><a class="active" href="index.php">Trang chủ</a></li>
                 <li><a href="store.php">Cửa hàng</a></li>
