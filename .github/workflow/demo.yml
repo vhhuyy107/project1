@@ -1,0 +1,12 @@
+name: Kiem Tra Code
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Thong bao
+        run: echo "Chuc mung! Code cua ban da duoc day len GitHub thanh cong."
